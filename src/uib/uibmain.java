@@ -1,23 +1,30 @@
 package uib;
 
+import java.util.Scanner;
+
 public class uibmain {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		final int TOTAL_CLIENTES = 2;
 		
-		Cliente cliente1 = new Cliente();
-		cliente1.nome = "felipe";
-		cliente1.cpf = "077.075.514-35";	
-		
-		Conta conta1 = new Conta();
-		
-		conta1.saldo = 100;
-		conta1.donoDaConta = cliente1.nome;
-				
-		
-		System.out.println(cliente1.nome + " tem " + conta1.saldo);
-		
+	Cliente donoDaConta[] = new Cliente [TOTAL_CLIENTES];
+	
+	Scanner leTeclado = new Scanner(System.in);
+	
+	//System.out.println("digite o nome do cliente");
 
-	}
-
+	Cliente cliente1 = new Cliente();  
+	
+		cliente1.setNome("felipe");	
+		cliente1.setCpf("123");
+		
+		Cliente cliente2 = new Cliente();  
+		
+		cliente2.setNome("hue");	
+		cliente2.setCpf("456");
+		
+    Conta conta1 = new
+		
+		
+	}	
 }
